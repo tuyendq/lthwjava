@@ -1,11 +1,11 @@
 {
   "java.project.sourcePaths": [
-    "HelloWorld", "QuickStart", "WelcomeToJava"
+    "HelloWorld", "QuickStart", "WelcomeToJava", "String", "Operators", "HackerRank", 
   ],
   "java.configuration.runtimes": [
     {
       "name": "JavaSE-11",
-      "path": "D:\\jdk11\\bin"
+      "path": "D:\\jdk11"
     }
   ]
 }
