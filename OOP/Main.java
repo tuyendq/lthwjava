@@ -39,10 +39,21 @@ public class Main {
         }
     }
 
+    // Enable the "Toyota" class to inherit from "Car"
+ 	  static class Toyota extends Car {        
+        public Toyota(String color, String model, int year){
+        	// Call the "Car" constructor using "super()"
+           super(color, model, year);
+        }
+    }
+
     public static void main(String[] args) {
         Car myCar = new Car("red", "camry", 2022);
         System.out.println(myCar.calculateMPG(180, 20));
         // Print the result of the calculateSpeed method with the correct parameters
         System.out.println(Formula.calculateSpeed(165.00, 15.00));
+        // Create "myToyota" instance of Toyota and print out the "model"
+        Toyota myToyota = new Toyota("black", "yaris", 2014);
+        System.out.println(myToyota.model);
     }
 }
