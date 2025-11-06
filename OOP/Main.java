@@ -5,11 +5,14 @@ public class Main {
         // Make "model" and "year" public
         public String model;
         public int year;
+        // Create private property "vehicleNumber"
+        private int vehicleNumber;
 
         Car(String color, String model, int year) {
             this.color = color;
             this.model = model;
             this.year = year;
+            this.vehicleNumber = 101189;
         }
 
         // Make "turnEngineOn" method public
