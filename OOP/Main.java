@@ -15,6 +15,11 @@ public class Main {
             this.vehicleNumber = 101189;
         }
 
+        // Create deployAirbags method
+        private void deployAirbags() {
+		    System.out.println("airbags deployed");
+        }
+
         // Make "turnEngineOn" method public
         public void turnEngineOn() {
             System.out.println("engine is on");            
