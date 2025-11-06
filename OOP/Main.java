@@ -13,7 +13,14 @@ public class Main {
     interface ElectricCar {
     
         void activateSelfDriving();
-    } 
+    }
+    // Implement ElectricCar Interface
+    static class Tesla implements ElectricCar {
+        // Implement activateSelfDriving method 
+       public void activateSelfDriving() {
+            System.out.println("self driving on");
+        }                              
+    }
     static class Car {
         public String color;
         // Make "model" and "year" public
@@ -61,5 +68,9 @@ public class Main {
         // Create "myToyota" instance of Toyota and print out the "model"
         Toyota myToyota = new Toyota("black", "yaris", 2014);
         System.out.println(myToyota.model);
+        //
+        Tesla myTesla = new Tesla();
+        // Call activateSelfDriving method
+        myTesla.activateSelfDriving();
     }
 }
