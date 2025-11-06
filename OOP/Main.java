@@ -7,7 +7,13 @@ public class Main {
           return distance / time;
         }            
     
-    }  
+    }
+
+    // Create ElectricCar interface with activateSelfDriving method
+    interface ElectricCar {
+    
+        void activateSelfDriving();
+    } 
     static class Car {
         public String color;
         // Make "model" and "year" public
