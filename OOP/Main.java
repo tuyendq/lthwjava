@@ -1,26 +1,30 @@
-class Main {
-    
+class Main {  
+
     static class Car {
         String color;
         String model;
         int year;
-        
+
         Car(String color, String model, int year) {
             this.color = color;
             this.model = model;
             this.year = year;
         }
-        
-        // Create the turnEngineOn method
+
         void turnEngineOn() {
-        	// Print out "engine is on"
-            System.out.println("engine is on");           
+            System.out.println("engine is on");            
+        }
+
+        // Create the calculateMPG method 
+        int calculateMPG(int milesDriven, int gallonsUsed) {
+            return milesDriven / gallonsUsed;
         }
     }
     
     public static void main(String[] args) {
         Car myCar = new Car("red", "camry", 2022);
-        // Call the turnEngineOn method on the myCar object instance
-        myCar.turnEngineOn();
+        // Print out value for when calculateMPG is used 
+        System.out.println(myCar.calculateMPG(180, 20));
     }
+    
 }
