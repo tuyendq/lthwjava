@@ -1,9 +1,10 @@
-class Main {  
+public class Main {  
 
     static class Car {
-        String color;
-        String model;
-        int year;
+        public String color;
+        // Make "model" and "year" public
+        public String model;
+        public int year;
 
         Car(String color, String model, int year) {
             this.color = color;
@@ -11,20 +12,19 @@ class Main {
             this.year = year;
         }
 
-        void turnEngineOn() {
+        // Make "turnEngineOn" method public
+        public void turnEngineOn() {
             System.out.println("engine is on");            
         }
 
-        // Create the calculateMPG method 
-        int calculateMPG(int milesDriven, int gallonsUsed) {
+        // Make "calculateMPG" method public
+        public int calculateMPG(int milesDriven, int gallonsUsed) {
             return milesDriven / gallonsUsed;
         }
     }
-    
+
     public static void main(String[] args) {
         Car myCar = new Car("red", "camry", 2022);
-        // Print out value for when calculateMPG is used 
         System.out.println(myCar.calculateMPG(180, 20));
     }
-    
 }
