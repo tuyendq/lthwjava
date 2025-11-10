@@ -9,7 +9,7 @@ public class Shopping2 {
 		LinkedList<String> shopList = new LinkedList<String>();
 		shopList.addLast("milk");
         // Add eggs to the end of the list
-		shopList.addLast("egg");
+		shopList.addLast("eggs");
 		shopList.addLast("bread");
 		// Add milk to the beginning of the list again
 		shopList.addFirst("milk");
