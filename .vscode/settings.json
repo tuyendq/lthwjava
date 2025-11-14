@@ -16,5 +16,6 @@
     //   "path": "D:\\jdk21",
     //   "default": true
     // }
-  ]
+  ],
+  "java.debug.settings.onBuildFailureProceed": true
 }
