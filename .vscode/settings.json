@@ -1,6 +1,6 @@
 {
   "java.project.sourcePaths": [
-    "HelloWorld", "QuickStart", "WelcomeToJava", "String", "Operators", "HackerRank", "Method", "ControlFlow", "Loop", "Array", "OOP", "POJO", "Wrapper", "Inheritance", "Polymorphism", "Abstraction", "Encapsulation", "ExceptionHandling", "FileIO", "Collections", "List", "Set", "Queue", "Map", "Exceptions", "Generics", "Lambda", "StreamAPI", "DateTimeAPI", "Concurrency", "Networking", "JDBC", "JavaFX", "Modules", "NIO", "Annotations", "Reflection", "JVMInternals", "package", "Log", "InputOutput"
+    "HelloWorld", "QuickStart", "WelcomeToJava", "String", "Operators", "HackerRank", "Method", "ControlFlow", "Loop", "Array", "OOP", "POJO", "Wrapper", "Inheritance", "Polymorphism", "Abstraction", "Encapsulation", "ExceptionHandling", "FileIO", "Collections", "List", "Set", "Queue", "Map", "Exceptions", "Generics", "Lambda", "StreamAPI", "DateTimeAPI", "Concurrency", "Networking", "JDBC", "JavaFX", "Modules", "NIO", "Annotations", "Reflection", "JVMInternals", "package", "Logging", "InputOutput"
   ],
   "java.configuration.runtimes": [
     // {
