@@ -7,15 +7,15 @@
     //   "name": "JavaSE-11",
     //   "path": "D:\\jdk11"
     // },
-    {
-      "name": "JavaSE-17",
-      "path": "C:\\software\\openjdk17"
-    },
     // {
-    //   "name": "JavaSE-21",
-    //   "path": "D:\\jdk21",
-    //   "default": true
-    // }
+    //   "name": "JavaSE-17",
+    //   "path": "C:\\software\\openjdk17"
+    // },
+    {
+      "name": "JavaSE-21",
+      "path": "D:\\jdk21",
+      "default": true
+    }
   ],
   "java.debug.settings.onBuildFailureProceed": true
 }
