@@ -1,16 +1,18 @@
 {
   "java.project.sourcePaths": [
-    "HelloWorld", "QuickStart", "WelcomeToJava", "String", "Operators", "HackerRank", "Method", "ControlFlow", "Loop", "Array", "OOP", "POJO", "Wrapper", "Inheritance", "Polymorphism", "Abstraction", "Encapsulation", "ExceptionHandling", "FileIO", "Collections", "List", "Set", "Queue", "Map", "Exceptions", "Generics", "Lambda", "StreamAPI", "DateTimeAPI", "Concurrency", "Networking", "JDBC", "JavaFX", "Modules", "NIO", "Annotations", "Reflection", "JVMInternals", "package", "Logging", "InputAndOutput", "Iterators"
+    "HelloWorld", "QuickStart", "WelcomeToJava", "String", "Operators", "HackerRank", "Method", "ControlFlow", "Loop", "Array", "OOP", "POJO", "Wrapper", "Inheritance", "Polymorphism", "Abstraction", "Encapsulation", "ExceptionHandling", "FileIO", "Collections", "List", "Set", "Queue", "Map", "Exceptions", "Generics", "Lambda", "StreamAPI", "DateTimeAPI", "Concurrency", "Networking", "JDBC", "JavaFX", "Modules", "NIO", "Annotations", "Reflection", "JVMInternals", "package", "Logging", "InputAndOutput", "Iterators", "Testing"
   ],
   "java.configuration.runtimes": [
     // {
     //   "name": "JavaSE-11",
     //   "path": "D:\\jdk11"
     // },
+    // Uncomment to run on Lenovo X230: JavaSE-17
     // {
     //   "name": "JavaSE-17",
     //   "path": "C:\\software\\openjdk17"
     // },
+    // Uncomment to run on Lenovo X220: JavaSE-21
     {
       "name": "JavaSE-21",
       "path": "D:\\jdk21",
